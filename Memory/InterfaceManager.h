@@ -5,7 +5,7 @@
 template<typename T>
 class InterfaceManager {
 public:
-	VirtualTable* vtable;
+	VMTManager* vtable;
 	T* members;
 	InterfaceManager(T* pClass) {
 		main = pClass;
