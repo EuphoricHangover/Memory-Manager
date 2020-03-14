@@ -141,6 +141,10 @@
     <ClInclude Include="InterfaceManager.h" />
     <ClInclude Include="VMTManager.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="InterfaceManager.cpp" />
+    <ClCompile Include="VMTManager.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
